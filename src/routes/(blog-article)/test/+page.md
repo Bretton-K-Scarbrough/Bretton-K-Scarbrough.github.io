@@ -26,16 +26,3 @@ u(x) =
 \end{cases}
 $$
 
-![image](/images/posts/test/parabola.png)
-![image](/images/posts/test/giphy.webp)
-
-
-<!-- <script> -->
-<!-- 	let mathContent = ` -->
-<!-- 	\\[ -->
-<!-- 	\\int_{-\\infty}^\\infty f(x)\\exp\\{ -jkx\\}dx -->
-<!-- 	\\] -->
-<!-- 	`; -->
-<!-- </script> -->
-<!---->
-<!-- <div>{@html mathContent}</div> -->
