@@ -14,10 +14,12 @@ const extensions = ['.svelte', '.md'];
 const config = {
 	kit: {
 		adapter: adapter({
-			fallback: '404.html'
+			pages: 'build',
+			assets: 'build',
+			fallback: null
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			base: process.env.NODE_ENV === 'production' ? '/Bretton-K-Scarbrough' : '' // Replace <repo-name> with your GitHub repo name
 		},
 		prerender: {
 			handleHttpError: 'warn'

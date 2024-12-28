@@ -10,7 +10,4 @@
   <url>
     <loc>https://sveltekit-static-blog-template.vercel.app/</loc>
   </url>
-  <url>
-    <loc>https://sveltekit-static-blog-template.vercel.app/test</loc>
-  </url>
 </urlset>
