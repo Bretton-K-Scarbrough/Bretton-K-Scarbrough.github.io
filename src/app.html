@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="%sveltekit.assets%/favicons/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="%sveltekit.assets%/favicons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="%sveltekit.assets%/favicons/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="%sveltekit.assets%/favicons/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="%sveltekit.assets%/favicons/safari-pinned-tab.svg"
+			color="#0ca4a5"
+		/>
+		<link rel="shortcut icon" href="%sveltekit.assets%/favicons/favicon.ico" />
+		<link rel="icon" href="%sveltekit.assets%/favicons/favicon.png" />
+		<!-- <link -->
+		<!--   rel="stylesheet" -->
+		<!--   href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" -->
+		<!-- /> -->
+		<!-- Tell browser this site is responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Tell browser this site supports light and dark mode -->
+		<meta name="color-scheme" content="light dark" />
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#b28cf2" />
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#4612A1" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+<!----TODO: Mathjax stuff---->
+<!-- <script> -->
+<!--     window.MathJax = { -->
+<!--         tex: { -->
+<!--             inlineMath: [['$', '$'], ['\\(', '\\)']], // Inline delimiters -->
+<!--             displayMath: [['$$', '$$'], ['\\[', '\\]']], // Block delimiters -->
+<!--             processEscapes: true, // Allow escaping special characters -->
+<!--             packages: { '[+]': ['base', 'ams'] }, // Ensure required MathJax packages -->
+<!-- 	    processEnvironments: true, -->
+<!-- 	    macros: { R: '\mathbf R'} -->
+<!-- 	 -->
+<!--         }, -->
+<!--         svg: { fontCache: 'global' }, -->
+<!--         options: { -->
+<!--             // skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'], // Avoid processing raw code blocks -->
+<!--         } -->
+<!--     }; -->
+<!-- </script> -->
+<!-- <script type="text/javascript" id="MathJax-script" async -->
+<!--   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> -->
+<!-- </script> -->
+
+
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div id="svelte-root">%sveltekit.body%</div>
+	</body>
+</html>
