@@ -60,6 +60,12 @@
       "_index2.js"
     ]
   },
+  "__page2.js": {
+    "file": "chunks/_page2.js",
+    "imports": [
+      "_index2.js"
+    ]
+  },
   "_error.js": {
     "file": "chunks/error.js",
     "imports": [
@@ -96,7 +102,8 @@
   "_utils.js": {
     "file": "chunks/utils.js",
     "imports": [
-      "__page.js"
+      "__page.js",
+      "__page2.js"
     ]
   },
   "node_modules/@fontsource/inter/files/inter-all-400-normal.woff": {
@@ -294,11 +301,20 @@
     "isEntry": true,
     "src": "src/routes/(blog-article)/+layout.svelte"
   },
+  "src/routes/(blog-article)/customization/+page.md": {
+    "file": "entries/pages/(blog-article)/customization/_page.md.js",
+    "imports": [
+      "_index2.js",
+      "__page.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(blog-article)/customization/+page.md"
+  },
   "src/routes/(blog-article)/test/+page.md": {
     "file": "entries/pages/(blog-article)/test/_page.md.js",
     "imports": [
       "_index2.js",
-      "__page.js"
+      "__page2.js"
     ],
     "isEntry": true,
     "src": "src/routes/(blog-article)/test/+page.md"

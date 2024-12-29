@@ -18,6 +18,10 @@
 		"src/routes/(waves)/blog/+page.server.ts",
 		"src/routes/+layout.ts"
 	],
+	"/(blog-article)/customization": [
+		"src/routes/(blog-article)/+layout.server.ts",
+		"src/routes/+layout.ts"
+	],
 	"/rss.xml": [
 		"src/routes/rss.xml/+server.ts"
 	],

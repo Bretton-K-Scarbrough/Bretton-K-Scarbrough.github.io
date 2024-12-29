@@ -1,7 +1,6 @@
 ---
 title: Monkey in the Middle
 slug: test
-coverImage: 
 date: 2023-04-22T21:55:15.361Z
 excerpt: How to manage existing blog posts and create new ones
 tags:

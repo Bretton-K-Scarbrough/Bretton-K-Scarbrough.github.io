@@ -8,16 +8,18 @@ export const nodes = [
 	() => import('./nodes/4'),
 	() => import('./nodes/5'),
 	() => import('./nodes/6'),
-	() => import('./nodes/7')
+	() => import('./nodes/7'),
+	() => import('./nodes/8')
 ];
 
 export const server_loads = [2];
 
 export const dictionary = {
-		"/(waves)": [~5,[3]],
-		"/(waves)/404": [6,[3]],
-		"/(waves)/blog": [~7,[3]],
-		"/(blog-article)/test": [4,[2]]
+		"/(waves)": [~6,[3]],
+		"/(waves)/404": [7,[3]],
+		"/(waves)/blog": [~8,[3]],
+		"/(blog-article)/customization": [4,[2]],
+		"/(blog-article)/test": [5,[2]]
 	};
 
 export const hooks = {
