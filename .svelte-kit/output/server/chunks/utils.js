@@ -1,11 +1,10 @@
 import { _ as __vite_glob_0_0 } from "./_page.js";
-import { _ as __vite_glob_0_1 } from "./_page2.js";
 import "prismjs";
 import "prism-svelte";
 import readingTime from "reading-time/lib/reading-time.js";
 import striptags from "striptags";
 const importPosts = (render = false) => {
-  const blogImports = /* @__PURE__ */ Object.assign({ "/src/routes/(blog-article)/customization/+page.md": __vite_glob_0_0, "/src/routes/(blog-article)/test/+page.md": __vite_glob_0_1 });
+  const blogImports = /* @__PURE__ */ Object.assign({ "/src/routes/(blog-article)/test/+page.md": __vite_glob_0_0 });
   const innerImports = /* @__PURE__ */ Object.assign({});
   const imports = { ...blogImports, ...innerImports };
   const posts = [];
