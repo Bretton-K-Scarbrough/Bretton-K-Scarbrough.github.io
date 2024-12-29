@@ -1,14 +1,15 @@
-const siteBaseUrl = "https://sveltekit-static-blog-template.vercel.app/";
+const siteBaseUrl = "https://bretton-k-scarbrough.github.io/";
 const keywords = [
-  "Svelte",
-  "SvelteKit",
-  "Template",
+  "Bretton K Scarbrough",
   "Blog",
-  "Starter",
-  "Static Site"
+  "Portfolio",
+  "Static Site",
+  "Web Development",
+  "Math",
+  "Science"
 ];
-const description = "A light, neat, and easy-to-use SvelteKit template for your next website.";
-const title = "SvelteKit Static Blog Template";
+const description = "The personal blog and portfolio of Bretton K Scarbrough, featuring posts on web development, math, science, and other interests.";
+const title = "Bretton K Scarbrough - Blog and Portfolio";
 const image = `${siteBaseUrl}/images/site-preview.png`;
 export {
   description as d,
