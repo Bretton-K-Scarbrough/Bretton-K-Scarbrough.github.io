@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./favicons/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./favicons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./favicons/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./favicons/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="./favicons/safari-pinned-tab.svg"
+			color="#0ca4a5"
+		/>
+		<link rel="shortcut icon" href="./favicons/favicon.ico" />
+		<link rel="icon" href="./favicons/favicon.png" />
+		<!-- <link -->
+		<!--   rel="stylesheet" -->
+		<!--   href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" -->
+		<!-- /> -->
+		<!-- Tell browser this site is responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Tell browser this site supports light and dark mode -->
+		<meta name="color-scheme" content="light dark" />
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#b28cf2" />
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#4612A1" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+<!----TODO: Mathjax stuff---->
+<!-- <script> -->
+<!--     window.MathJax = { -->
+<!--         tex: { -->
+<!--             inlineMath: [['$', '$'], ['\\(', '\\)']], // Inline delimiters -->
+<!--             displayMath: [['$$', '$$'], ['\\[', '\\]']], // Block delimiters -->
+<!--             processEscapes: true, // Allow escaping special characters -->
+<!--             packages: { '[+]': ['base', 'ams'] }, // Ensure required MathJax packages -->
+<!-- 	    processEnvironments: true, -->
+<!-- 	    macros: { R: '\mathbf R'} -->
+<!-- 	 -->
+<!--         }, -->
+<!--         svg: { fontCache: 'global' }, -->
+<!--         options: { -->
+<!--             // skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'], // Avoid processing raw code blocks -->
+<!--         } -->
+<!--     }; -->
+<!-- </script> -->
+<!-- <script type="text/javascript" id="MathJax-script" async -->
+<!--   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> -->
+<!-- </script> -->
+
+
+		
+		<link href="./_app/immutable/assets/0.13484673.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.a0c51d5a.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Footer.ecd5031e.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Socials.1c0e54d1.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ContentSection.cd12d60a.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.ab8c7bcd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.63c8a074.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.f07250df.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.9c0c422a.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.b802d1e5.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.4a937331.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Footer.39de1f74.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ContentSection.c317476c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/regex.7dfa9b23.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/meta.82364fc2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/5.888a5f92.js"><title>Monkey in the Middle - SvelteKit Static Blog Template</title><!-- HEAD_svelte-1ylu8nc_START --><meta name="keywords" content="j, Svelte, SvelteKit, Template, Blog, Starter, Static Site">
+
+		<meta name="description" content="How to manage existing blog posts and create new ones">
+		<meta property="og:description" content="How to manage existing blog posts and create new ones">
+		<meta name="twitter:description" content="How to manage existing blog posts and create new ones">
+		<link rel="canonical" href="https://sveltekit-static-blog-template.vercel.app//test">
+
+		
+		<meta property="og:title" content="Monkey in the Middle - SvelteKit Static Blog Template">
+		<meta name="twitter:title" content="Monkey in the Middle - SvelteKit Static Blog Template">
+
+		<!-- HEAD_svelte-1ylu8nc_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div id="svelte-root">
+
+
+
+<div class="article-layout svelte-1hgysft"><header class="svelte-1gvg2a4 has-background"><nav class="container svelte-1gvg2a4"><a class="logo svelte-1gvg2a4" href="/" aria-label="Site logo"><div class="logo svelte-qu2viy animated"><svg id="logo-text" width="723.84009" height="116.720268" viewBox="0 0 723.84009 116.720269" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-qu2viy"><text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)" class="svelte-qu2viy"><tspan x="275.57227" y="292.17088" id="tspan1319"><tspan style="font-size:106.667px;font-family:YoungSerif;" id="tspan1317">Home</tspan></tspan></text></svg>
+</div></a>
+		<div class="links svelte-1gvg2a4"><a href="/blog" class="svelte-1gvg2a4">Blog</a>
+			
+			<noscript>
+	<style>.theme-toggle {
+			display: none !important;
+		}
+	</style></noscript>
+<button class="theme-toggle svelte-niuf71" title="Toggle between light and dark theme"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><mask id="moon" class="svelte-niuf71"><rect x="0" y="0" width="100%" height="100%" fill="white" class="svelte-niuf71"></rect><circle cx="40" cy="8" r="11" fill="black" class="svelte-niuf71"></circle></mask><circle id="sun" cx="12" cy="12" r="11" mask="url(#moon)" class="svelte-niuf71"></circle><g id="sun-beams" class="svelte-niuf71"><line x1="12" y1="1" x2="12" y2="3" class="svelte-niuf71"></line><line x1="12" y1="21" x2="12" y2="23" class="svelte-niuf71"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" class="svelte-niuf71"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" class="svelte-niuf71"></line><line x1="1" y1="12" x2="3" y2="12" class="svelte-niuf71"></line><line x1="21" y1="12" x2="23" y2="12" class="svelte-niuf71"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" class="svelte-niuf71"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" class="svelte-niuf71"></line></g></svg>
+	<span class="label svelte-niuf71">Auto</span>
+</button></div></nav>
+</header>
+	<main><article id="article-content" class="svelte-1hgysft"><div class="header svelte-1hgysft"><h1>Monkey in the Middle</h1>
+					<div class="note svelte-1hgysft">Published on 22 April 2023</div>
+					
+					<div class="note svelte-1hgysft">1 min read</div>
+					<div class="tags svelte-1hgysft"><div class="tag primary svelte-1xh8qlg">j</div></div></div>
+			
+			<div class="content svelte-1hgysft"><p><span class="math math-inline"><!-- HTML_TAG_START --><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span><!-- HTML_TAG_END --></span> is a function in an inline block</p>
+<div class="math math-display"><!-- HTML_TAG_START --><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msubsup><mo>∫</mo><mrow><mo>−</mo><mi mathvariant="normal">∞</mi></mrow><mi mathvariant="normal">∞</mi></msubsup><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int_{-\infty}^\infty f(x)dx</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.3846em;vertical-align:-0.9703em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4143em;"><span style="top:-1.7881em;margin-left:-0.4445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">∞</span></span></span></span><span style="top:-3.8129em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9703em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mord mathnormal">d</span><span class="mord mathnormal">x</span></span></span></span></span><!-- HTML_TAG_END --></div>
+<div class="math math-display"><!-- HTML_TAG_START --><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>u</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mrow><mo fence="true">{</mo><mtable rowspacing="0.36em" columnalign="left left" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>1</mn><mo separator="true">,</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo separator="true">,</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>0</mn><mo separator="true">,</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>x</mi><mo>&lt;</mo><mn>0</mn></mrow></mstyle></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">u(x) = 
+\begin{cases}
+    1, &amp; x &gt; 0 \\ 
+    \frac{1}{2}, &amp; x = 0 \\ 
+    0, &amp; x &lt; 0
+\end{cases}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">u</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:4.32em;vertical-align:-1.91em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35em;"><span style="top:-2.2em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎩</span></span></span><span style="top:-2.192em;"><span class="pstrut" style="height:3.15em;"></span><span style="height:0.316em;width:0.8889em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.8889em" height="0.316em" style="width:0.8889em" viewBox="0 0 888.89 316" preserveAspectRatio="xMinYMin"><path d="M384 0 H504 V316 H384z M384 0 H504 V316 H384z"/></svg></span></span><span style="top:-3.15em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎨</span></span></span><span style="top:-4.292em;"><span class="pstrut" style="height:3.15em;"></span><span style="height:0.316em;width:0.8889em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.8889em" height="0.316em" style="width:0.8889em" viewBox="0 0 888.89 316" preserveAspectRatio="xMinYMin"><path d="M384 0 H504 V316 H384z M384 0 H504 V316 H384z"/></svg></span></span><span style="top:-4.6em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎧</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.85em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">1</span><span class="mpunct">,</span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mpunct">,</span></span></span><span style="top:-1.53em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">0</span><span class="mpunct">,</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.91em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:1em;"></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">0</span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">0</span></span></span><span style="top:-1.53em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.91em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span><!-- HTML_TAG_END --></div></div></article>
+		<div class="container"><section id="related-posts" class="content-section top svelte-emrvls"><div class="title-area svelte-emrvls"><div class="text svelte-emrvls"><h2>Related Posts</h2>
+				</div>
+		</div>
+	<div class="content-area svelte-emrvls"><div class="simple-grid svelte-ypk0wh"><a class="card blog-post-card no-image svelte-1kz16cj" href="/customization" target="_self" data-sveltekit-preload-data><div class="image svelte-1kz16cj"><div class="image" slot="image"></div></div>
+	<div class="body svelte-1kz16cj"><div class="content svelte-1kz16cj"><div class="content svelte-1i7t6gt" slot="content"><p class="title svelte-1i7t6gt">How to Customize this Template</p>
+		<div class="note svelte-1i7t6gt">3 min read</div>
+		<p class="text svelte-1i7t6gt">How to customize what you're seeing here and make it your own.</p></div></div>
+		<div class="footer"><div class="footer svelte-1i7t6gt" slot="footer"><div class="tags svelte-1i7t6gt"><div class="tag primary svelte-1xh8qlg">Documentation</div></div></div></div></div>
+</a></div></div>
+</section></div></main>
+	<footer class="svelte-1m94jhe"><div class="wave"><svg width="100%" height="120" viewBox="0 0 1440 120" fill="none" style="transform: scale(-1,-1)" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" class="footer__wave"><path d="M0 0L48 8.875C96 17.9167 192 35.4167 288 53.3333C384 71.25 480 88.75 576 82.2083C672 75.4167 768 44.5833 864 26.6667C960 8.75 1056 4.58333 1152 11.125C1248 17.9167 1344 35.4167 1392 44.4583L1440 53.3333V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0V0Z" fill="var(--body-background-color)"></path></svg></div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+	
+</footer>
+</div>
+
+			
+			<script>
+				{
+					__sveltekit_1ri8hko = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,{"type":"data","data":{post:{title:"Monkey in the Middle",slug:"test",date:"2023-04-22T21:55:15.361Z",excerpt:"How to manage existing blog posts and create new ones",tags:["j"],html:"\u003Cp>\u003Cspan class=\"math math-inline\">\u003C!-- HTML_TAG_START -->\u003Cspan class=\"katex\">\u003Cspan class=\"katex-mathml\">\u003Cmath xmlns=\"http://www.w3.org/1998/Math/MathML\">\u003Csemantics>\u003Cmrow>\u003Cmi>f\u003C/mi>\u003Cmo stretchy=\"false\">(\u003C/mo>\u003Cmi>x\u003C/mi>\u003Cmo stretchy=\"false\">)\u003C/mo>\u003C/mrow>\u003Cannotation encoding=\"application/x-tex\">f(x)\u003C/annotation>\u003C/semantics>\u003C/math>\u003C/span>\u003Cspan class=\"katex-html\" aria-hidden=\"true\">\u003Cspan class=\"base\">\u003Cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\">\u003C/span>\u003Cspan class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f\u003C/span>\u003Cspan class=\"mopen\">(\u003C/span>\u003Cspan class=\"mord mathnormal\">x\u003C/span>\u003Cspan class=\"mclose\">)\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C!-- HTML_TAG_END -->\u003C/span> is a function in an inline block\u003C/p>\n\u003Cdiv class=\"math math-display\">\u003C!-- HTML_TAG_START -->\u003Cspan class=\"katex-display\">\u003Cspan class=\"katex\">\u003Cspan class=\"katex-mathml\">\u003Cmath xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\u003Csemantics>\u003Cmrow>\u003Cmsubsup>\u003Cmo>∫\u003C/mo>\u003Cmrow>\u003Cmo>−\u003C/mo>\u003Cmi mathvariant=\"normal\">∞\u003C/mi>\u003C/mrow>\u003Cmi mathvariant=\"normal\">∞\u003C/mi>\u003C/msubsup>\u003Cmi>f\u003C/mi>\u003Cmo stretchy=\"false\">(\u003C/mo>\u003Cmi>x\u003C/mi>\u003Cmo stretchy=\"false\">)\u003C/mo>\u003Cmi>d\u003C/mi>\u003Cmi>x\u003C/mi>\u003C/mrow>\u003Cannotation encoding=\"application/x-tex\">\\int_{-\\infty}^\\infty f(x)dx\u003C/annotation>\u003C/semantics>\u003C/math>\u003C/span>\u003Cspan class=\"katex-html\" aria-hidden=\"true\">\u003Cspan class=\"base\">\u003Cspan class=\"strut\" style=\"height:2.3846em;vertical-align:-0.9703em;\">\u003C/span>\u003Cspan class=\"mop\">\u003Cspan class=\"mop op-symbol large-op\" style=\"margin-right:0.44445em;position:relative;top:-0.0011em;\">∫\u003C/span>\u003Cspan class=\"msupsub\">\u003Cspan class=\"vlist-t vlist-t2\">\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:1.4143em;\">\u003Cspan style=\"top:-1.7881em;margin-left:-0.4445em;margin-right:0.05em;\">\u003Cspan class=\"pstrut\" style=\"height:2.7em;\">\u003C/span>\u003Cspan class=\"sizing reset-size6 size3 mtight\">\u003Cspan class=\"mord mtight\">\u003Cspan class=\"mord mtight\">−\u003C/span>\u003Cspan class=\"mord mtight\">∞\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-3.8129em;margin-right:0.05em;\">\u003Cspan class=\"pstrut\" style=\"height:2.7em;\">\u003C/span>\u003Cspan class=\"sizing reset-size6 size3 mtight\">\u003Cspan class=\"mord mtight\">∞\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"vlist-s\">​\u003C/span>\u003C/span>\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:0.9703em;\">\u003Cspan>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.1667em;\">\u003C/span>\u003Cspan class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f\u003C/span>\u003Cspan class=\"mopen\">(\u003C/span>\u003Cspan class=\"mord mathnormal\">x\u003C/span>\u003Cspan class=\"mclose\">)\u003C/span>\u003Cspan class=\"mord mathnormal\">d\u003C/span>\u003Cspan class=\"mord mathnormal\">x\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C!-- HTML_TAG_END -->\u003C/div>\n\u003Cdiv class=\"math math-display\">\u003C!-- HTML_TAG_START -->\u003Cspan class=\"katex-display\">\u003Cspan class=\"katex\">\u003Cspan class=\"katex-mathml\">\u003Cmath xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\u003Csemantics>\u003Cmrow>\u003Cmi>u\u003C/mi>\u003Cmo stretchy=\"false\">(\u003C/mo>\u003Cmi>x\u003C/mi>\u003Cmo stretchy=\"false\">)\u003C/mo>\u003Cmo>=\u003C/mo>\u003Cmrow>\u003Cmo fence=\"true\">{\u003C/mo>\u003Cmtable rowspacing=\"0.36em\" columnalign=\"left left\" columnspacing=\"1em\">\u003Cmtr>\u003Cmtd>\u003Cmstyle scriptlevel=\"0\" displaystyle=\"false\">\u003Cmrow>\u003Cmn>1\u003C/mn>\u003Cmo separator=\"true\">,\u003C/mo>\u003C/mrow>\u003C/mstyle>\u003C/mtd>\u003Cmtd>\u003Cmstyle scriptlevel=\"0\" displaystyle=\"false\">\u003Cmrow>\u003Cmi>x\u003C/mi>\u003Cmo>&gt;\u003C/mo>\u003Cmn>0\u003C/mn>\u003C/mrow>\u003C/mstyle>\u003C/mtd>\u003C/mtr>\u003Cmtr>\u003Cmtd>\u003Cmstyle scriptlevel=\"0\" displaystyle=\"false\">\u003Cmrow>\u003Cmfrac>\u003Cmn>1\u003C/mn>\u003Cmn>2\u003C/mn>\u003C/mfrac>\u003Cmo separator=\"true\">,\u003C/mo>\u003C/mrow>\u003C/mstyle>\u003C/mtd>\u003Cmtd>\u003Cmstyle scriptlevel=\"0\" displaystyle=\"false\">\u003Cmrow>\u003Cmi>x\u003C/mi>\u003Cmo>=\u003C/mo>\u003Cmn>0\u003C/mn>\u003C/mrow>\u003C/mstyle>\u003C/mtd>\u003C/mtr>\u003Cmtr>\u003Cmtd>\u003Cmstyle scriptlevel=\"0\" displaystyle=\"false\">\u003Cmrow>\u003Cmn>0\u003C/mn>\u003Cmo separator=\"true\">,\u003C/mo>\u003C/mrow>\u003C/mstyle>\u003C/mtd>\u003Cmtd>\u003Cmstyle scriptlevel=\"0\" displaystyle=\"false\">\u003Cmrow>\u003Cmi>x\u003C/mi>\u003Cmo>&lt;\u003C/mo>\u003Cmn>0\u003C/mn>\u003C/mrow>\u003C/mstyle>\u003C/mtd>\u003C/mtr>\u003C/mtable>\u003C/mrow>\u003C/mrow>\u003Cannotation encoding=\"application/x-tex\">u(x) = \n\\begin{cases}\n    1, &amp; x &gt; 0 \\\\ \n    \\frac{1}{2}, &amp; x = 0 \\\\ \n    0, &amp; x &lt; 0\n\\end{cases}\u003C/annotation>\u003C/semantics>\u003C/math>\u003C/span>\u003Cspan class=\"katex-html\" aria-hidden=\"true\">\u003Cspan class=\"base\">\u003Cspan class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\">\u003C/span>\u003Cspan class=\"mord mathnormal\">u\u003C/span>\u003Cspan class=\"mopen\">(\u003C/span>\u003Cspan class=\"mord mathnormal\">x\u003C/span>\u003Cspan class=\"mclose\">)\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003Cspan class=\"mrel\">=\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003C/span>\u003Cspan class=\"base\">\u003Cspan class=\"strut\" style=\"height:4.32em;vertical-align:-1.91em;\">\u003C/span>\u003Cspan class=\"minner\">\u003Cspan class=\"mopen\">\u003Cspan class=\"delimsizing mult\">\u003Cspan class=\"vlist-t vlist-t2\">\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:2.35em;\">\u003Cspan style=\"top:-2.2em;\">\u003Cspan class=\"pstrut\" style=\"height:3.15em;\">\u003C/span>\u003Cspan class=\"delimsizinginner delim-size4\">\u003Cspan>⎩\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-2.192em;\">\u003Cspan class=\"pstrut\" style=\"height:3.15em;\">\u003C/span>\u003Cspan style=\"height:0.316em;width:0.8889em;\">\u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"0.8889em\" height=\"0.316em\" style=\"width:0.8889em\" viewBox=\"0 0 888.89 316\" preserveAspectRatio=\"xMinYMin\">\u003Cpath d=\"M384 0 H504 V316 H384z M384 0 H504 V316 H384z\"/>\u003C/svg>\u003C/span>\u003C/span>\u003Cspan style=\"top:-3.15em;\">\u003Cspan class=\"pstrut\" style=\"height:3.15em;\">\u003C/span>\u003Cspan class=\"delimsizinginner delim-size4\">\u003Cspan>⎨\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-4.292em;\">\u003Cspan class=\"pstrut\" style=\"height:3.15em;\">\u003C/span>\u003Cspan style=\"height:0.316em;width:0.8889em;\">\u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"0.8889em\" height=\"0.316em\" style=\"width:0.8889em\" viewBox=\"0 0 888.89 316\" preserveAspectRatio=\"xMinYMin\">\u003Cpath d=\"M384 0 H504 V316 H384z M384 0 H504 V316 H384z\"/>\u003C/svg>\u003C/span>\u003C/span>\u003Cspan style=\"top:-4.6em;\">\u003Cspan class=\"pstrut\" style=\"height:3.15em;\">\u003C/span>\u003Cspan class=\"delimsizinginner delim-size4\">\u003Cspan>⎧\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"vlist-s\">​\u003C/span>\u003C/span>\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:1.85em;\">\u003Cspan>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"mord\">\u003Cspan class=\"mtable\">\u003Cspan class=\"col-align-l\">\u003Cspan class=\"vlist-t vlist-t2\">\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:2.41em;\">\u003Cspan style=\"top:-4.41em;\">\u003Cspan class=\"pstrut\" style=\"height:3.008em;\">\u003C/span>\u003Cspan class=\"mord\">\u003Cspan class=\"mord\">1\u003C/span>\u003Cspan class=\"mpunct\">,\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-2.97em;\">\u003Cspan class=\"pstrut\" style=\"height:3.008em;\">\u003C/span>\u003Cspan class=\"mord\">\u003Cspan class=\"mord\">\u003Cspan class=\"mopen nulldelimiter\">\u003C/span>\u003Cspan class=\"mfrac\">\u003Cspan class=\"vlist-t vlist-t2\">\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:0.8451em;\">\u003Cspan style=\"top:-2.655em;\">\u003Cspan class=\"pstrut\" style=\"height:3em;\">\u003C/span>\u003Cspan class=\"sizing reset-size6 size3 mtight\">\u003Cspan class=\"mord mtight\">\u003Cspan class=\"mord mtight\">2\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-3.23em;\">\u003Cspan class=\"pstrut\" style=\"height:3em;\">\u003C/span>\u003Cspan class=\"frac-line\" style=\"border-bottom-width:0.04em;\">\u003C/span>\u003C/span>\u003Cspan style=\"top:-3.394em;\">\u003Cspan class=\"pstrut\" style=\"height:3em;\">\u003C/span>\u003Cspan class=\"sizing reset-size6 size3 mtight\">\u003Cspan class=\"mord mtight\">\u003Cspan class=\"mord mtight\">1\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"vlist-s\">​\u003C/span>\u003C/span>\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:0.345em;\">\u003Cspan>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"mclose nulldelimiter\">\u003C/span>\u003C/span>\u003Cspan class=\"mpunct\">,\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-1.53em;\">\u003Cspan class=\"pstrut\" style=\"height:3.008em;\">\u003C/span>\u003Cspan class=\"mord\">\u003Cspan class=\"mord\">0\u003C/span>\u003Cspan class=\"mpunct\">,\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"vlist-s\">​\u003C/span>\u003C/span>\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:1.91em;\">\u003Cspan>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"arraycolsep\" style=\"width:1em;\">\u003C/span>\u003Cspan class=\"col-align-l\">\u003Cspan class=\"vlist-t vlist-t2\">\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:2.41em;\">\u003Cspan style=\"top:-4.41em;\">\u003Cspan class=\"pstrut\" style=\"height:3.008em;\">\u003C/span>\u003Cspan class=\"mord\">\u003Cspan class=\"mord mathnormal\">x\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003Cspan class=\"mrel\">&gt;\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003Cspan class=\"mord\">0\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-2.97em;\">\u003Cspan class=\"pstrut\" style=\"height:3.008em;\">\u003C/span>\u003Cspan class=\"mord\">\u003Cspan class=\"mord mathnormal\">x\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003Cspan class=\"mrel\">=\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003Cspan class=\"mord\">0\u003C/span>\u003C/span>\u003C/span>\u003Cspan style=\"top:-1.53em;\">\u003Cspan class=\"pstrut\" style=\"height:3.008em;\">\u003C/span>\u003Cspan class=\"mord\">\u003Cspan class=\"mord mathnormal\">x\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003Cspan class=\"mrel\">&lt;\u003C/span>\u003Cspan class=\"mspace\" style=\"margin-right:0.2778em;\">\u003C/span>\u003Cspan class=\"mord\">0\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"vlist-s\">​\u003C/span>\u003C/span>\u003Cspan class=\"vlist-r\">\u003Cspan class=\"vlist\" style=\"height:1.91em;\">\u003Cspan>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003Cspan class=\"mclose nulldelimiter\">\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C/span>\u003C!-- HTML_TAG_END -->\u003C/div>",readingTime:"1 min read",relatedPosts:[{slug:"customization",title:"How to Customize this Template",date:"2023-04-22T21:55:27.154Z",excerpt:"How to customize what you're seeing here and make it your own.",coverImage:"/images/posts/customization.jpg",tags:["Documentation"],html:"\u003Cp>In general, content can be modified by editing the \u003Cstrong>organisms\u003C/strong> and the pages themselves. Below is a list of the most common changes that you may want to make.\u003C/p>\n\u003Ch2>Domain/site URL\u003C/h2>\n\u003Cp>The first thing you might want to do is replace the domain of of the site with your own. There are two places where you need to do that:\u003C/p>\n\u003Cul>\u003Cli>In the \u003Ccode>package.json\u003C/code> file, check the \u003Ccode>postbuild\u003C/code> script. Change the domain there to your own, so it ends up like this: \u003Ccode>svelte-sitemap --domain https://your-domain.com\u003C/code>. This is used to generate the sitemap of your website, which is used by search engines to index your site.\u003C/li>\n\u003Cli>In the \u003Ccode>src/lib/data/meta.ts\u003C/code> file, change the \u003Ccode>siteBaseUrl\u003C/code> property to your own domain. This is used in multiple parts of the app wherever the site needs to link to itself.\u003C/li>\u003C/ul>\n\u003Ch2>Header/site logo\u003C/h2>\n\u003Cp>To replace the logo that appears in the header, modify or replace the contents of the \u003Ccode>Logo.svelte\u003C/code> atom.\u003C/p>\n\u003Cp>The links that appear on the header can be modified directly in the \u003Ccode>Header.svelte\u003C/code> organism.\u003C/p>\n\u003Ch2>Hero section\u003C/h2>\n\u003Cp>The hero section is the first section of the site’s home page. It is composed of a Heading, the \u003Cem>intro\u003C/em> text, and a list of buttons/CTAs. The contents of this section can be modified directly in the \u003Ccode>Hero.svelte\u003C/code> organism.\u003C/p>\n\u003Ch2>About section\u003C/h2>\n\u003Cp>The about section contains another headline, a paragraph of text, some social media links, and optionally an image. The contents of this section can be modified directly in the \u003Ccode>About.svelte\u003C/code> organism.\u003C/p>\n\u003Ch2>Social Links\u003C/h2>\n\u003Cp>The social links are contained in the \u003Ccode>Socials.svelte\u003C/code> molecule and can be used in any page. This template shows them on the About section and in the Footer.\u003C/p>\n\u003Ch2>Footer\u003C/h2>\n\u003Cp>The footer contains some credits, a list of social links, and the RSS/Theme toggle. The contents of this section can be modified directly in the \u003Ccode>Footer.svelte\u003C/code> organism.\u003C/p>\n\u003Ch2>Colors\u003C/h2>\n\u003Cp>You can change the color palette of the website just by tweaking the \u003Ccode>_themes.scss\u003C/code> file. The file uses the \u003Ccode>define-color\u003C/code> scss function to automatically set the color variables in Hex, RGB and HSL formats, so you can choose whichever format you need.\u003C/p>\n\u003Cp>The main theme colors (primary and secondary) have two variants: shade and tint. The shade is a lighter version of the color (darker in dark mode), and the tint should almost match the page’s background, so that in light mode, it’s really bright, and in dark mode, it’s really dark.\u003C/p>\n\u003Ch2>Fonts\u003C/h2>\n\u003Cp>This template uses the Inter, Merriweather and Ubuntu Mono font families. You can change the font family by editing the \u003Ccode>_variables.scss\u003C/code> file, and the code is already set up to accept a default font, a heading font, and a monospace font.\u003C/p>\n\u003Cp>I recommend using \u003Ca href=\"https://fontsource.org/\" rel=\"nofollow\">Fontsource\u003C/a> to import the fonts you need, or self-hosting them. In case you’re using Fontsource, you can import the fonts in \u003Ccode>global.scss\u003C/code> file to make sure they’re available in the entire site.\u003C/p>\n\u003Ch2>Favicon\u003C/h2>\n\u003Cp>Favicons are located in the \u003Ccode>static/favicons\u003C/code> folder. I like to use \u003Ca href=\"https://realfavicongenerator.net\" rel=\"nofollow\">Real Favicon Generator\u003C/a> to generate mine, but you can use any other tool you like. I wrote \u003Ca href=\"https://fantinel.dev/fixing-favicons\" rel=\"nofollow\">a blog post about Favicons\u003C/a> in case you want to learn more about them.\u003C/p>\n\u003Ch2>Social Media Link Preview\u003C/h2>\n\u003Cp>You probably want to customize how links to your website look when posted on social media/messaging apps. To do that, you can edit the info in \u003Ccode>src/lib/data/meta.ts\u003C/code>. There, you can edit the site’s title, description, tags (used by search engines) and the image that appears when sharing a link.\u003C/p>",readingTime:"3 min read"}]}},"uses":{"url":1}},null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.ab8c7bcd.js"),
+						import("./_app/immutable/entry/app.9c0c422a.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

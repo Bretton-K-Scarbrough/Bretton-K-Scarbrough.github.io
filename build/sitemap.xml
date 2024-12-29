@@ -8,6 +8,12 @@
     <loc>https://sveltekit-static-blog-template.vercel.app/blog</loc>
   </url>
   <url>
+    <loc>https://sveltekit-static-blog-template.vercel.app/customization</loc>
+  </url>
+  <url>
     <loc>https://sveltekit-static-blog-template.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://sveltekit-static-blog-template.vercel.app/test</loc>
   </url>
 </urlset>

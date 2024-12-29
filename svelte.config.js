@@ -18,9 +18,10 @@ const config = {
 			assets: 'build',
 			fallback: null
 		}),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/Bretton-K-Scarbrough' : '' // Replace <repo-name> with your GitHub repo name
-		},
+		// Hope this works!!!!!
+		// paths: {
+		// 	base: process.env.NODE_ENV === 'production' ? '/Bretton-K-Scarbrough' : '' // Replace <repo-name> with your GitHub repo name
+		// },
 		prerender: {
 			handleHttpError: 'warn'
 		}
