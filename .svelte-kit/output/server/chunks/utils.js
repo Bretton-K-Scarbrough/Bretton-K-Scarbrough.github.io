@@ -4,7 +4,7 @@ import "prism-svelte";
 import readingTime from "reading-time/lib/reading-time.js";
 import striptags from "striptags";
 const importPosts = (render = false) => {
-  const blogImports = /* @__PURE__ */ Object.assign({ "/src/routes/(blog-article)/test/+page.md": __vite_glob_0_0 });
+  const blogImports = /* @__PURE__ */ Object.assign({ "/src/routes/(blog-article)/FourierTransforms/+page.md": __vite_glob_0_0 });
   const innerImports = /* @__PURE__ */ Object.assign({});
   const imports = { ...blogImports, ...innerImports };
   const posts = [];

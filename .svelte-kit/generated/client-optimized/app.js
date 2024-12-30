@@ -16,8 +16,8 @@ export const server_loads = [2];
 export const dictionary = {
 		"/(waves)": [~5,[3]],
 		"/(waves)/404": [6,[3]],
-		"/(waves)/blog": [~7,[3]],
-		"/(blog-article)/test": [4,[2]]
+		"/(blog-article)/FourierTransforms": [4,[2]],
+		"/(waves)/blog": [~7,[3]]
 	};
 
 export const hooks = {

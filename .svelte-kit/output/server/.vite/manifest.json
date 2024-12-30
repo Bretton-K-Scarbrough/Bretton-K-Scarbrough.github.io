@@ -294,14 +294,14 @@
     "isEntry": true,
     "src": "src/routes/(blog-article)/+layout.svelte"
   },
-  "src/routes/(blog-article)/test/+page.md": {
-    "file": "entries/pages/(blog-article)/test/_page.md.js",
+  "src/routes/(blog-article)/FourierTransforms/+page.md": {
+    "file": "entries/pages/(blog-article)/FourierTransforms/_page.md.js",
     "imports": [
       "_index2.js",
       "__page.js"
     ],
     "isEntry": true,
-    "src": "src/routes/(blog-article)/test/+page.md"
+    "src": "src/routes/(blog-article)/FourierTransforms/+page.md"
   },
   "src/routes/(waves)/+layout.css": {
     "file": "_app/immutable/assets/_layout.4c4b0438.css",
@@ -406,7 +406,7 @@
     "src": "src/routes/+error.svelte"
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout.da40f781.css",
+    "file": "_app/immutable/assets/_layout.6d4da248.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/+layout.svelte": {
@@ -453,7 +453,7 @@
       "_app/immutable/assets/ubuntu-mono-latin-400-normal.b07e4ebe.woff2"
     ],
     "css": [
-      "_app/immutable/assets/_layout.da40f781.css"
+      "_app/immutable/assets/_layout.6d4da248.css"
     ],
     "file": "entries/pages/_layout.svelte.js",
     "imports": [

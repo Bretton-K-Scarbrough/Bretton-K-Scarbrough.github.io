@@ -23,17 +23,17 @@
     </image>
     
         <item>
-          <guid>https://bretton-k-scarbrough.github.io//test</guid>
-          <title>Fourier Transfoms</title>
-          <description>How to manage existing blog posts and create new ones</description>
-          <link>https://bretton-k-scarbrough.github.io//test</link>
+          <guid>https://bretton-k-scarbrough.github.io//FourierTransforms</guid>
+          <title>Fourier Transforms</title>
+          <description>Defining the Fourier Transform</description>
+          <link>https://bretton-k-scarbrough.github.io//FourierTransforms</link>
           <pubDate>Sat, 22 Apr 2023 16:55:15 -0500</pubDate>
           <category>Signal Processing</category><category>Applied Mathematics</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
               If anything looks wrong, 
               <strong>
-                <a href="https://bretton-k-scarbrough.github.io//test">
+                <a href="https://bretton-k-scarbrough.github.io//FourierTransforms">
                   read on the site!
                 </a>
               </strong>

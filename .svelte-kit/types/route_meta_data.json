@@ -14,15 +14,15 @@
 	"/(waves)/404": [
 		"src/routes/+layout.ts"
 	],
+	"/(blog-article)/FourierTransforms": [
+		"src/routes/(blog-article)/+layout.server.ts",
+		"src/routes/+layout.ts"
+	],
 	"/(waves)/blog": [
 		"src/routes/(waves)/blog/+page.server.ts",
 		"src/routes/+layout.ts"
 	],
 	"/rss.xml": [
 		"src/routes/rss.xml/+server.ts"
-	],
-	"/(blog-article)/test": [
-		"src/routes/(blog-article)/+layout.server.ts",
-		"src/routes/+layout.ts"
 	]
 }

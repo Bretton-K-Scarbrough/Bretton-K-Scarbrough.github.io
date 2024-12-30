@@ -1,8 +1,11 @@
 :root {
 	// Fonts
-	--font--default: Inter, sans-serif;
+	/* --font--default: Inter, sans-serif; */
+	--font--default: Libre Baskerville, serif;
 	--font--title: Merriweather, serif;
+	/* --font--title: Times, serif; */
 	--font--mono: Ubuntu Mono, monospace;
+	/* --font--mono: Times, serif; */
 
 	// Grabbed from open-props.style
 	--ease-3: cubic-bezier(0.25, 0, 0.3, 1);

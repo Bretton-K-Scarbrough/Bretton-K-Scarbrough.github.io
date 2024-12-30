@@ -1,8 +1,8 @@
 ---
-title: Fourier Transfoms
-slug: test
+title: Fourier Transforms
+slug: FourierTransforms
 date: 2023-04-22T21:55:15.361Z
-excerpt: How to manage existing blog posts and create new ones
+excerpt: Defining the Fourier Transform
 tags:
   - Signal Processing 
   - Applied Mathematics
